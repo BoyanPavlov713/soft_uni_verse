@@ -1,0 +1,5 @@
+packets_pens = int(input())
+packets_markers = int(input())
+liquid = int(input())
+discount =int(input())
+print((packets_pens*5.8 +packets_markers*7.2 + liquid*1.2)*(1-discount/100))
