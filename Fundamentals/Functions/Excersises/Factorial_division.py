@@ -6,10 +6,16 @@ def fac_func(a, b):
         first_factorial *= i
     for j in range(1, int2 + 1):
         second_factorial *= j
-    print(f'{first_factorial / second_factorial: .02f}')
+    result = first_factorial / second_factorial
+    return result
+
+
+def write_fuc (number):
+     print(f'{number: .02f}')
 
 
 int1 = int(input())
 int2 = int(input())
-fac_func(5, 2)
+num = fac_func(a = int1 , b = int2)
+write_fuc(num)
 

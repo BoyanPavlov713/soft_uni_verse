@@ -1,4 +1,10 @@
 def account(item , qnt):
+    """
+    jhgjhgjhg
+    :param item: jhjhg
+    :param qnt: hgjhg
+    :return: kjgkjg
+    """
     return total_price
 
 
